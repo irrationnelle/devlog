@@ -4,7 +4,7 @@ date: '2019-12-08T01:01:03.284Z'
 template: "post"
 draft: false
 slug: "namespace-function"
-category: "python"
+category: "Python"
 tags:
   - "python3"
   - "namespace"
