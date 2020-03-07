@@ -10,6 +10,7 @@ tags:
   - "async"
 description: "개발을 하던 중에 모달 이벤트를 처리해야 하는 경우가 있다."
 socialImage: ""
+cover: ./Rx_Logo_S.png
 ---
 
 # 왜 나는 이런 고민을 하게 되었나
