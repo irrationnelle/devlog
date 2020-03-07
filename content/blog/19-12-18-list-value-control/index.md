@@ -2,6 +2,13 @@
 title: list comprehension 과 map
 date: '2019-12-18T01:01:03.284Z'
 draft: false
+template: "post"
+slug: "python-list"
+category: "Python"
+tags:
+  - "python"
+description: "파이썬의 List comprehension 과 map 을 이해해보자"
+socialImage: ""
 ---
 
 사실 지난 번 메소드 이야기를 잠깐 한 것은 이번에 클래스에 대해서 이야기를 해보고 싶었기 때문인데, 막상 클래스에 대해 설명하려니 클래스와 인스턴스의 관계까지 다루어야 하고 이야기가 길어질 거 같아 이번에도 리스트 이야기를 해보겠다. 여담으로 나는 클래스를 이해하는데 1년이나 걸렸는데(...) 요즘은 이렇게 말하고 다닌다, 걍 함수까지 같이 넣어주는 구ㅈ...읍읍 당신들 누구야. **물론 농담이다**.
