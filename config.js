@@ -18,12 +18,12 @@ module.exports = {
             icon: "fa-sync-alt"
         },
         {
-            id: "Coffee",
-            icon: "fa-coffee"
+            id: "Python",
+            icon: "fa-python"
         },
         {
-            id: "Trip",
-            icon: "fa-plane-departure"
+            id: "Dev",
+            icon: "fa-dev"
         }
     ],
 
