@@ -4,22 +4,22 @@ export default {
         defaultText: "#000",
         overlayBack: "#000",
         header: {
-            back: "#3f0f3f",
-            text: "#fff",
-            button: "#fff"
+            back: "#F8F8FA",
+            text: "#ab9ba9",
+            button: "#ab9ba9"
         }
     },
     side: {
-        defaultBack: "#3f0f3f",
-        defaultText: "#fff",
+        defaultBack: "#F8F8FA",
+        defaultText: "#ab9ba9",
         bio: {
-            circle: "#49c39e",
+            circle: "#000000",
             defaultText: "#999",
-            activeText: "#fff"
+            activeText: "#000"
         },
         category: {
             activeText: "#000",
-            activeBack: "#49c39e"
+            activeBack: "#CAD1D9"
         }
     },
     bio: {
@@ -57,6 +57,6 @@ export default {
         category: "#0687f0"
     },
     recentpostitem: {
-        text: "#fff"
+        text: "#ab9ba9"
     }
 };
