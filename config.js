@@ -1,18 +1,22 @@
 module.exports = {
-    url: "http://demo.nagui.me",
-    title: "Nagui Starter",
+    url: "https://rase.dev",
+    title: "rase devlog",
     lang: "ko",
-    description: "Gatsby Starter Nagui",
+    description: "irrationnelle's development blog",
     defaultKeywords: [`blog`, `gatsby`, `javascript`, `react`, `kimnagui`],
     defaultMetaImage: "/defaultmetaimage.png",
 
-    authorNickName: "KimNagui",
-    authorFullName: "KimGwangHyeon",
-    authorDescription: "I Love CaffeLatte",
+    authorNickName: "rase",
+    authorFullName: "irrationnelle",
+    authorDescription: "Front-end developer",
     photo: "content/assets/profile-pic.png",
 
     // icon : FontAwesome
     category: [
+        {
+            id: "RxJs",
+            icon: "fa-sync-alt"
+        },
         {
             id: "Coffee",
             icon: "fa-coffee"
@@ -24,14 +28,14 @@ module.exports = {
     ],
 
     social: {
-        email: "calrosban@gmail.com",
-        github: "https://github.com/kimnagui"
+        email: "drakkarverenis@gmail.com",
+        github: "https://github.com/irrationnelle"
     },
 
     postsPerPage: 5,
     pageListSize: 5,
 
-    copyright: "© All rights reserved.",
-    googleAnalyticsId: "UA-143311992-2",
-    s3Bucket: "demo.nagui.me"
+    copyright: "irrationnelle © All rights reserved.",
+    googleAnalyticsId: "",
+    s3Bucket: ""
 };

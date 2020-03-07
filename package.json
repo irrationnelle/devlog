@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-bee",
+  "name": "rase-devlog",
   "private": true,
-  "description": "Gatsby blog starter template",
+  "description": "irrationnelle's developer blog",
   "version": "0.1.0",
-  "author": "Jbee[JaeYeopHan]<ljyhanll@gmail.com>",
+  "author": "irrationnelle <drakkarverenis@gmail.com>",
   "bugs": {
     "url": "https://github.com/JaeYeopHan/gatsby-starter-bee/issues"
   },
