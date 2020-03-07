@@ -93,25 +93,12 @@ module.exports = {
                 themes: `${__dirname}/src/themes`
             }
         },
-        {
-            resolve: `gatsby-plugin-google-analytics`,
-            options: {
-                trackingId: siteConfig.googleAnalyticsId,
-                head: true
-            }
-        },
         `gatsby-plugin-offline`,
         `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-plugin-typography`,
             options: {
                 pathToConfigModule: `src/utils/typography`
-            }
-        },
-        {
-            resolve: `gatsby-plugin-s3`,
-            options: {
-                bucketName: siteConfig.s3Bucket
             }
         },
         {
