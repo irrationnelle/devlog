@@ -9,7 +9,7 @@ module.exports = {
     authorNickName: "rase",
     authorFullName: "irrationnelle",
     authorDescription: "Front-end developer",
-    photo: "content/assets/profile-pic.png",
+    photo: "content/assets/profile-pic.jpg",
 
     // icon : FontAwesome
     category: [
