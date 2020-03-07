@@ -36,6 +36,4 @@ module.exports = {
     pageListSize: 5,
 
     copyright: "irrationnelle © All rights reserved.",
-    googleAnalyticsId: "",
-    s3Bucket: ""
 };
