@@ -4,7 +4,7 @@ module.exports = {
     lang: "ko",
     description: "irrationnelle's development blog",
     defaultKeywords: [`blog`, `gatsby`, `javascript`, `react`, `kimnagui`],
-    defaultMetaImage: "/defaultmetaimage.png",
+    defaultMetaImage: "/defaultmetaimage.jpg",
 
     authorNickName: "rase",
     authorFullName: "irrationnelle",
