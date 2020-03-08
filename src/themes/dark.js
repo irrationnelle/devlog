@@ -26,7 +26,7 @@ export default {
         defaultBack: "#999",
         defaultText: "#000",
         subText: "#4d4d4d",
-        socialButton: "#000"
+        socialButton: "#808080"
     },
     postlistitem: {
         title: "#eee",
