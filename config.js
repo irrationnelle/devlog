@@ -15,15 +15,15 @@ module.exports = {
     category: [
         {
             id: "RxJs",
-            icon: "fa-sync-alt"
+            icon: "fa-code"
         },
         {
             id: "Python",
-            icon: "fa-python"
+            icon: "fa-code"
         },
         {
             id: "Dev",
-            icon: "fa-dev"
+            icon: "fa-code"
         }
     ],
 

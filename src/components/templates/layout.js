@@ -100,7 +100,7 @@ export default class Layout extends React.Component {
         super(props);
         this.state = {
             mobile_side: false,
-            isDarkMode: false
+            isDarkMode: true
         };
     }
 
