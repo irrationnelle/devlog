@@ -5,7 +5,8 @@ draft: false
 slug: "cra-dockerize"
 category: "Devops"
 tags:
-  - "react", "docker"
+  - "react"
+  - "docker"
 description: "토이 프로젝트에 CI/CD 를 붙이다가 Docker 를 오랜만에 다시 만지게 되었다."
 socialImage: ""
 ---
