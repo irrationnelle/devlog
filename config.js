@@ -24,6 +24,10 @@ module.exports = {
         {
             id: "Dev",
             icon: "fa-code"
+        },
+        {
+            id: "Devops",
+            icon: "fa-code"
         }
     ],
 
