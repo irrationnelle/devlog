@@ -1,6 +1,6 @@
 ---
 title: CRA 앱 Dockerize 하기
-date: '2019-11-29T01:01:03.284Z'
+date: '2020-04-22T01:01:03.284Z'
 draft: false
 slug: "cra-dockerize"
 category: "Devops"
