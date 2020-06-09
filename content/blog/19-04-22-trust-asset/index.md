@@ -6,6 +6,7 @@ draft: false
 slug: "trust-asset"
 category: "Dev"
 description: "기술부채라는 말이 있다. 간단히 말하면, 프로젝트 마감날짜를 지키기 위해 구현 외의 모든 것을 미루는 행위다"
+thumbnail: "../../assets/hello.png"
 socialImage: ""
 ---
 

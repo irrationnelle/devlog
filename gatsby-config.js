@@ -1,108 +1,103 @@
-"use strict";
-
-const siteConfig = require("./config.js");
+const metaConfig = require('./gatsby-meta-config')
 
 module.exports = {
-    siteMetadata: {
-        siteUrl: siteConfig.url,
-        title: siteConfig.title,
-        lang: siteConfig.lang,
-        description: siteConfig.description,
-        defaultKeywords: siteConfig.defaultKeywords,
-        defaultMetaImage: siteConfig.defaultMetaImage,
-        copyright: siteConfig.copyright,
-        authorNickName: siteConfig.authorNickName,
-        authorFullName: siteConfig.authorFullName,
-        authorDescription: siteConfig.authorDescription,
-        photo: siteConfig.photo,
-        social: siteConfig.social,
-        category: siteConfig.category,
-        pageListSize: siteConfig.pageListSize
+  siteMetadata: metaConfig,
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      },
     },
-    plugins: [
-        `gatsby-transformer-sharp`,
-        `gatsby-plugin-sharp`,
-        {
-            resolve: `gatsby-source-filesystem`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/__about`,
+        name: `about`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/assets`,
+        name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-katex`,
             options: {
-                path: `${__dirname}/content/blog`,
-                name: `blog`
-            }
-        },
-        {
-            resolve: `gatsby-source-filesystem`,
+              strict: `ignore`,
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
             options: {
-                path: `${__dirname}/content/assets`,
-                name: `assets`
-            }
-        },
-        {
-            resolve: `gatsby-transformer-remark`,
+              maxWidth: 1200,
+              linkImagesToOriginal: false,
+            },
+          },
+          {
+            resolve: `gatsby-remark-images-medium-zoom`,
             options: {
-                plugins: [
-                    `gatsby-remark-emoji`,
-                    {
-                        resolve: `gatsby-remark-images`,
-                        options: {
-                            maxWidth: 590
-                        }
-                    },
-                    {
-                        resolve: `gatsby-remark-responsive-iframe`,
-                        options: {
-                            wrapperStyle: `margin-bottom: 1.0725rem`
-                        }
-                    },
-                    {
-                        resolve: `gatsby-remark-prismjs`,
-                        options: {
-                            classPrefix: "language-",
-                            inlineCodeMarker: null,
-                            aliases: {},
-                            showLineNumbers: false,
-                            noInlineHighlight: false,
-                            languageExtensions: [
-                                {
-                                    language: "superscript",
-                                    extend: "javascript",
-                                    definition: {
-                                        superscript_types: /(SuperType)/
-                                    },
-                                    insertBefore: {
-                                        function: {
-                                            superscript_keywords: /(superif|superelse)/
-                                        }
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    `gatsby-remark-copy-linked-files`,
-                    `gatsby-remark-smartypants`
-                ]
-            }
-        },
-        {
-            resolve: "gatsby-plugin-root-import",
+              margin: 36,
+              scrollOffset: 0,
+            },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
             options: {
-                content: `${__dirname}/content`,
-                src: `${__dirname}/src`,
-                components: `${__dirname}/src/components`,
-                pages: `${__dirname}/src/pages`,
-                utils: `${__dirname}/src/utils`,
-                themes: `${__dirname}/src/themes`
-            }
-        },
-        `gatsby-plugin-offline`,
-        `gatsby-plugin-react-helmet`,
-        {
-            resolve: `gatsby-plugin-typography`,
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
             options: {
-                pathToConfigModule: `src/utils/typography`
-            }
-        },
-        {
-            resolve: `gatsby-plugin-styled-components`
-        }
-    ]
-};
+              inlineCodeMarker: '%',
+            },
+          },
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
+          `gatsby-remark-autolink-headers`,
+          `gatsby-remark-emoji`,
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: metaConfig.ga,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: metaConfig.title,
+        short_name: metaConfig.title,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: metaConfig.icon,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-feed`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-lodash`,
+    `gatsby-plugin-sitemap`,
+  ],
+}
