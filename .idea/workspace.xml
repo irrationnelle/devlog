@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5870bb9-387f-447d-9320-44adca34efd6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Ynovx4gJIRaQgeyZY2QZ1i3JSS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/assets" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/content/assets" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/content/blog/19-04-25-rxjs-trigger" />
+      <recent name="$PROJECT_DIR$/content/blog" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value=":w" />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5870bb9-387f-447d-9320-44adca34efd6" name="Default Changelist" comment="" />
+      <created>1583587953932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583587953932</updated>
+      <workItem from="1583587955845" duration="1341000" />
+      <workItem from="1583591260699" duration="3160000" />
+      <workItem from="1585310861585" duration="132000" />
+      <workItem from="1585312402454" duration="36000" />
+      <workItem from="1585312472214" duration="313000" />
+      <workItem from="1585496400672" duration="8000" />
+      <workItem from="1586684018248" duration="23000" />
+      <workItem from="1586684081867" duration="107000" />
+      <workItem from="1586689327599" duration="18000" />
+      <workItem from="1587837144101" duration="86000" />
+      <workItem from="1587837256409" duration="73000" />
+      <workItem from="1588228694206" duration="12000" />
+      <workItem from="1588228728565" duration="33000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add new profile img">
+      <created>1583588834814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583588834815</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add many posts that are written long time ago">
+      <created>1583589516435</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583589516435</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Delete many posts to avoid error for deploy">
+      <created>1583589863740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583589863740</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add cover img to avoid error">
+      <created>1583591619538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583591619538</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update list-value-control post">
+      <created>1583591979308</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583591979308</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update category name">
+      <created>1583593318565</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583593318565</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update theme from dark to light with social button change">
+      <created>1583670273653</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583670273653</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update default meta img">
+      <created>1583670791986</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583670791986</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update default favicon">
+      <created>1583670940138</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583670940138</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fix static directory contents">
+      <created>1583671089958</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583671089958</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update default favicon.ico">
+      <created>1583671289386</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583671289386</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update default meta image">
+      <created>1583671566834</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583671566834</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add new profile img" />
+    <MESSAGE value="Add many posts that are written long time ago" />
+    <MESSAGE value="Delete many posts to avoid error for deploy" />
+    <MESSAGE value="Add cover img to avoid error" />
+    <MESSAGE value="Update list-value-control post" />
+    <MESSAGE value="Update category name" />
+    <MESSAGE value="Update theme from dark to light with social button change" />
+    <MESSAGE value="Update default meta img" />
+    <MESSAGE value="Update default favicon" />
+    <MESSAGE value="Fix static directory contents" />
+    <MESSAGE value="Update default favicon.ico" />
+    <MESSAGE value="Update default meta image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update default meta image" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586684024374">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1586684024374" />
+    <state x="210" y="0" key="CommitChangelistDialog2" timestamp="1583671566520">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="210" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1583671566520" />
+    <state x="100" y="79" width="1080" height="618" key="DiffContextDialog" timestamp="1583591607147">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="79" width="1080" height="618" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1583591607147" />
+    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.23.1280.777@0.23.1280.777" timestamp="1583591383744" />
+    <state x="141" y="39" key="SettingsEditor" timestamp="1586684198746">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586684198746" />
+    <state x="288" y="141" width="703" height="518" key="find.popup" timestamp="1583670916269">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="288" y="141" width="703" height="518" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1583670916269" />
+    <state x="305" y="185" key="run.anything.popup" timestamp="1583588995929">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1583588995929" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1583671019873">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1583671019873" />
+  </component>
+</project>

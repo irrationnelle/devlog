@@ -29,11 +29,6 @@ export const Bio = () => (
                 </Link>
                 <div className="author-introduction">{introduction}</div>
                 <p className="author-socials">
-                  {social.instagram && (
-                    <a href={`https://www.instagram.com/${social.instagram}`}>
-                      Instagram
-                    </a>
-                  )}
                   {social.github && (
                     <a href={`https://github.com/${social.github}`}>GitHub</a>
                   )}
@@ -67,7 +62,7 @@ export const Bio = () => (
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile.png/" }) {
+    avatar: file(absolutePath: { regex: "/moi2020.jpg/" }) {
       childImageSharp {
         fixed(width: 72, height: 72) {
           ...GatsbyImageSharpFixed
@@ -84,7 +79,6 @@ const bioQuery = graphql`
           medium
           facebook
           linkedin
-          instagram
         }
       }
     }
