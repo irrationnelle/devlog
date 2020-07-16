@@ -1,3 +1,16 @@
+---
+title: TDD 와BDD, 그리고 명세(spec)에 대하여 
+date: '2020-07-16T01:01:03.284Z'
+draft: false
+slug: "test-spec"
+category: "Devops"
+tags:
+  - "tdd"
+  - "bdd"
+description: "얼마 전 드디어 실무에서도 TDD, 아니 정확히는 BDD 로 업무를 진행해보았다"
+socialImage: ""
+---
+
 # TDD 와 BDD, 그리고 명세(spec)에 대하여
 
 ## 들어가기 전
