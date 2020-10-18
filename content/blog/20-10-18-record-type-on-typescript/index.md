@@ -1,5 +1,5 @@
 ---
-title: Typecript 의 Record 타입:
+title: Typecript 의 Record 타입
 date: '2020-10-18T16:00:03.284Z'
 template: "post"
 draft: false
