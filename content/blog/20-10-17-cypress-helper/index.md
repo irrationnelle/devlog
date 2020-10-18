@@ -35,7 +35,7 @@ Cypress.Commands.add(‘getByTestId’, (testid: string, timeout = 10000) =>
 
 자바스크립트 환경에서는 여기서 끝이지만 타입스크립트에서는 타입 선언이 필요하다.
 
-따라서 `root/Cypress/spport/index.d.ts` 에 다음과 같이 타입을 지정한다.
+따라서 `root/Cypress/support/index.d.ts` 에 다음과 같이 타입을 지정한다.
 
 ```typescript
 /// <reference types="cypress" />
@@ -53,3 +53,9 @@ declare namespace Cypress {
 /// <reference types=“../support” />
 ```
 
+그럼 이제 테스트 코드(`root/Cypress/integration/example-test.spec.ts`)에서 다음처럼 사용이 가능하다.
+
+```typescript
+  cy.getByTestId('example-button').click();
+  cy.getByTestId('exmaple-content').should('be.visible');
+```
