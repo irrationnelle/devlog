@@ -46,7 +46,10 @@ declare namespace Cypress {
 }
 ```
 
-그리고 사소한 부분이라 빼먹기 쉬운데 이렇게 만든 helper 함수를 사용할 테스트 파일에 다음 문구를 상단에 삽입한다. `/// <reference types=“cypress” />` 다음 라인에 삽입하면 될 것이다.
+그리고 사소한 부분이라 빼먹기 쉬운데 이렇게 만든 helper 함수를 사용할 테스트 파일에 다음 `/// <reference types=“../support” />` 를 상단에 삽입한다. 예시처럼 삽입하면 될 것이다.
 
-`/// <reference types=“../support” />`
+```typescript
+/// <reference types=“cypress” />
+/// <reference types=“../support” />
+```
 
