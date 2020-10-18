@@ -26,7 +26,7 @@ lang: 'en'
 
 ### technologies
 
-- TypeScript, React16+, recoil, cypress, playwright, jest
+- TypeScript, React16+, recoil, Cypress, playwright, jest
 
 ## project: Janus exmaple
 
@@ -42,13 +42,12 @@ lang: 'en'
 
 # Opensource
 
-## mocha
+## [mocha](https://github.com/mochajs/mocha)
 
 - 버그 수정 https://github.com/mochajs/mocha/pull/4401
 
+## [mocha-examples](https://github.com/mochajs/mocha-examples)
+
 - playwright 를 이용한 예제 작성 https://github.com/mochajs/mocha-examples/pull/37
 
-<div align="center">
-
-
-</div>
+- RxJs 를 이용한 예제 작성 https://github.com/mochajs/mocha-examples/pull/39
