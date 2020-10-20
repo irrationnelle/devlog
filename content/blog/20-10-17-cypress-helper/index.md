@@ -41,7 +41,7 @@ Cypress.Commands.add(‘getByTestId’, (testid: string, timeout = 10000) =>
 /// <reference types="cypress" />
 declare namespace Cypress {
 	interface Chainable<Subject> {
-		getByTestId(testid: string, timeout?: number): Chainable<any>;
+		getByTestId(testid: string, timeout?: number): Chainable<JQuery<HTMLElement>>;
   }
 }
 ```
