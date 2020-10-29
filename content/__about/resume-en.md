@@ -26,7 +26,7 @@ lang: 'en'
 
 ### technologies
 
-- TypeScript, React16+, recoil, Cypress, playwright, jest
+- TypeScript, React16+, recoil, styled-component, Cypress, playwright, jest
 
 ## project: Janus exmaple
 
