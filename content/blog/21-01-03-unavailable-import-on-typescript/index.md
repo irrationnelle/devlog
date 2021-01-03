@@ -8,7 +8,7 @@ category: "typescript"
 tags:
 - "typescript"
 - "module"
-description: "배열을 받아서 `reduce` 메소드를 이용해서 동적 key 값을 가지는 오브젝트로 변환하려고 하면 타입 에러가 곧잘 뜬다."
+description: "Typecsript 를 사용하면서 transpile 을 하지 않고 `ts-node` 를 사용 하는 경우, `package.json` 에 `type: module` 을 추가했음에도 `Cannot use import statement outside a module` 에러가 발생하는 경우가 있다."
 socialImage: ""
 ---
 
