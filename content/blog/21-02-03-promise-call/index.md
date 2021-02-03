@@ -4,7 +4,7 @@ date: '2021-02-03T16:00:03.284Z'
 template: "post"
 draft: false
 slug: "promise-call"
-category: "dev"
+category: "Dev"
 tags:
 - "promise"
 description: "코드 리뷰를 하는 중에 다음과 같은 코드를 보았다."
