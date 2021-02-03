@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5870bb9-387f-447d-9320-44adca34efd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
@@ -30,7 +31,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -50,6 +52,7 @@
       <command value=":w" />
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -73,6 +76,7 @@
       <workItem from="1587837256409" duration="73000" />
       <workItem from="1588228694206" duration="12000" />
       <workItem from="1588228728565" duration="33000" />
+      <workItem from="1609651293262" duration="4292000" />
     </task>
     <task id="LOCAL-00001" summary="Add new profile img">
       <created>1583588834814</created>
@@ -158,11 +162,25 @@
       <option name="project" value="LOCAL" />
       <updated>1583671566834</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: add post about ts-node and module system">
+      <created>1609652847864</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609652847864</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix: modify description">
+      <created>1609654093129</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609654093129</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -189,37 +207,8 @@
     <MESSAGE value="Fix static directory contents" />
     <MESSAGE value="Update default favicon.ico" />
     <MESSAGE value="Update default meta image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update default meta image" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586684024374">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1586684024374" />
-    <state x="210" y="0" key="CommitChangelistDialog2" timestamp="1583671566520">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="210" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1583671566520" />
-    <state x="100" y="79" width="1080" height="618" key="DiffContextDialog" timestamp="1583591607147">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="100" y="79" width="1080" height="618" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1583591607147" />
-    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.23.1280.777@0.23.1280.777" timestamp="1583591383744" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1586684198746">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586684198746" />
-    <state x="288" y="141" width="703" height="518" key="find.popup" timestamp="1583670916269">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="288" y="141" width="703" height="518" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1583670916269" />
-    <state x="305" y="185" key="run.anything.popup" timestamp="1583588995929">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1583588995929" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1583671019873">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1583671019873" />
+    <MESSAGE value="feat: add post about ts-node and module system" />
+    <MESSAGE value="fix: modify description" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: modify description" />
   </component>
 </project>
