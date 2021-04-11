@@ -44,13 +44,19 @@ lang: 'en'
 
 ## [mocha](https://github.com/mochajs/mocha)
 
-- 버그 수정 https://github.com/mochajs/mocha/pull/4401
+- 버그 수정 [fix: add Mocha to global variable](https://github.com/mochajs/mocha/pull/4401)
 
 ## [mocha-examples](https://github.com/mochajs/mocha-examples)
 
-- playwright 를 이용한 예제 작성 https://github.com/mochajs/mocha-examples/pull/37
+- playwright 를 이용한 예제 작성 
 
-- RxJs 를 이용한 예제 작성 https://github.com/mochajs/mocha-examples/pull/39
+    - [feat: add playwright exmaple](https://github.com/mochajs/mocha-examples/pull/37)
+
+    - [Replace playwright method to simplify and to increase readability and update playwright to v1.9.1 ](https://github.com/mochajs/mocha-examples/pull/42)
+
+- RxJs 를 이용한 예제 작성 
+
+    - [feat: add rxjs exmaple](https://github.com/mochajs/mocha-examples/pull/39)
 
 # Personal Blog: <https://dev.rase.blog>
 
