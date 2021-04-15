@@ -1,7 +1,6 @@
 import { graphql } from 'gatsby'
 import _ from 'lodash'
 import React, { useMemo } from 'react'
-import { Bio } from '../components/bio'
 import { Category } from '../components/category'
 import { Contents } from '../components/contents'
 import { Head } from '../components/head'
@@ -13,6 +12,7 @@ import { useScrollEvent } from '../hooks/useScrollEvent'
 import { Layout } from '../layout'
 import * as Dom from '../utils/dom'
 import * as EventManager from '../utils/event-manager'
+import { Bio } from '../components/bio'
 
 const BASE_LINE = 80
 
@@ -20,7 +20,7 @@ function getDistance(currentPos) {
   return Dom.getDocumentHeight() - currentPos
 }
 
-export default ({ data, location }) => {
+function pageIndex({ data, location }) {
   const { siteMetadata } = data.site
   const { countOfInitialPost } = siteMetadata.configs
   const posts = data.allMarkdownRemark.edges
@@ -62,6 +62,8 @@ export default ({ data, location }) => {
     </Layout>
   )
 }
+
+export default pageIndex;
 
 export const pageQuery = graphql`
   query {

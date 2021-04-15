@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { rhythm } from '../utils/typography'
 import * as Lang from '../constants'
 
-export default ({ data }) => {
+function aboutPage({ data }) {
   const resumes = data.allMarkdownRemark.edges
 
   const resume = resumes
@@ -26,6 +26,8 @@ export default ({ data }) => {
     </div>
   )
 }
+
+export default aboutPage;
 
 export const pageQuery = graphql`
   query {

@@ -1,7 +1,7 @@
 import React, { useCallback, useRef } from 'react'
 import { rhythm } from '../../utils/typography'
-import './index.scss'
 import { Item } from './item'
+import './index.scss'
 
 export const Category = ({ categories, category, selectCategory }) => {
   const containerRef = useRef(null)
