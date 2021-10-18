@@ -66,3 +66,9 @@ rAF 는 reflow 가 아니라 repaint 에 관여를 한다.
 프로그레스바 같은 것이 채워지는 것도 width 나 height 가 길어진다고 생각해서
 
 reflow 라고 생각할 수 있지만, repaint 임을 명심하자.
+
+## 나중에 공부하려고 남기는 레퍼런스 링크
+
+https://www.w3.org/TR/animation-timing/#dom-windowanimationtiming-requestanimationframe
+
+이 포스팅에서 정리한 것들은 이 레퍼런스 글이 아니라 여기저기서 지식을 주워담은 것을 정리한 것이다.
