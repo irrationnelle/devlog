@@ -23,7 +23,7 @@ socialImage: ""
 
 콜스택을 비운 뒤 각 queue 에서 연산들을 가져간다.
 
-이 queue 에는 task queue, macrotask queue, animation frame 등이 있다.
+이 queue 에는 task queue, microtask queue, animation frame 등이 있다.
 
 ## requestAnimationFrame
 
@@ -41,9 +41,9 @@ setInterval 보다 성능이 좋다고 한다.
 
 ## queue 우선 순위
 
-일반적으로 이벤트 루프가 콜스택에 무엇을 채워넣을지 결정할 때, macrotask 를 가장 먼저 처리한다고 한다.
+일반적으로 이벤트 루프가 콜스택에 무엇을 채워넣을지 결정할 때, microtask 를 가장 먼저 처리한다고 한다.
 
-macrotask 로는 promise 등이 속한다.
+microtask 로는 promise 등이 속한다. setTimeout 같은 건 그냥 task.
 
 그 후에는 animation frame 에 속하는 연산을 처리하는데, 이게 바로 rAF 의 첫번재 인자로 전달하는 콜백이다.
 
