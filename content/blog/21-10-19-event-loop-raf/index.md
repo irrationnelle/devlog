@@ -21,7 +21,7 @@ socialImage: ""
 
 우선순위 queue 에다가 보관해놓고
 
-콜스택을 비운 뒤 각 queue 에서 연산들을 가져간다.
+콜스택을 비운 뒤 각 queue 에서 이벤트 루프가 연산들을 가져간다.
 
 이 queue 에는 task queue, microtask queue, animation frame 등이 있다.
 
