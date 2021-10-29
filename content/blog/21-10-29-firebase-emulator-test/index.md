@@ -7,7 +7,7 @@ slug: "firebase-emulator-test"
 category: "dev"
 tags:
   - "firebase"
-description: "firebase 로 테스트 코드를 하는 것은 통합테스트와 유닛 테스트이 경계를 애매하게 만든다.",
+description: "firebase 로 테스트 코드를 하는 것은 통합테스트와 유닛 테스트의 경계를 애매하게 만든다."
 socialImage: ""
 ---
 
