@@ -11,7 +11,6 @@ description: "firebase 로 테스트 코드를 하는 것은 통합테스트와 
 socialImage: ""
 ---
 
-# firebase 에뮬레이터로 테스트 코드 작성하기
 tdd 로 react 앱을 만들다가 firebase 구현 단계까지 왔다.
 
 로그인 버튼을 클릭했을 때 signIn 함수를 호출하는 것까지 테스트하고 있으나
