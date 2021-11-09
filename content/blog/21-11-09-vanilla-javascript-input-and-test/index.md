@@ -61,7 +61,7 @@ test("input test", () => {
 
 `fireEvent` 가 아니라 `@testing-library/user-event` 의 `type` 메서드를 사용해도 마찬가지이다.
 
-이 때에는 직접 input event 를 dispatch 해주는 방식으로 키입력을 대신할 수 있다.k
+이 때에는 직접 input event 를 dispatch 해주는 방식으로 키입력을 대신할 수 있다.
 
 ```javascript
 import { getByLabelText } from "@testing-library/dom";

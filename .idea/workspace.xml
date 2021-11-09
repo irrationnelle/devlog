@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5870bb9-387f-447d-9320-44adca34efd6" name="Default Changelist" comment="fix: Remove header text">
-      <change afterPath="$PROJECT_DIR$/content/blog/21-11-09-vanilla-javascript-input-and-test/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/21-11-09-vanilla-javascript-input-and-test/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/21-11-09-vanilla-javascript-input-and-test/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <workItem from="1609651293262" duration="4292000" />
       <workItem from="1635488567648" duration="398000" />
       <workItem from="1635508102106" duration="813000" />
-      <workItem from="1636461239663" duration="1991000" />
+      <workItem from="1636461239663" duration="2224000" />
     </task>
     <task id="LOCAL-00001" summary="Add new profile img">
       <created>1583588834814</created>
