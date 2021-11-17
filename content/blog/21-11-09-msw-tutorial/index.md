@@ -13,6 +13,16 @@ description: "최근에 API 요청에 test double 을 사용해서 테스트를 
 socialImage: ""
 ---
 
+## 수정(21.11.18): act 로 감싼 fireEvent 에 대해
+
+예제 코드에서 `fireEvent` 를 `act` 로 감쌌는데,
+
+`fireEvent` 는 내부에서 이미 `act` 를 호출한다고 한다.
+
+[Documentation mismatch: fireEvent wrapped in act()](https://github.com/testing-library/react-testing-library/issues/887)
+
+그래서 지금(21.11.18) 예시에 있던 `act` 호출을 모두 삭제한다.
+
 ## API 요청에 test double 사용하기
 
 일반적으로 API 를 요청해서 서버로에서 값을 가져오는 경우, e2e 테스트가 아니라면 API 요청에 test double 을 사용한다.
@@ -63,9 +73,7 @@ test("책 목록을 받아온다.", async () => {
   render(<App />);
 
   const button = screen.getByText(/books/i);
-  act(() => {
-    fireEvent.click(button);
-  });
+  fireEvent.click(button);
 
   const loading = await screen.findByText(/loading/i);
   expect(loading).toBeInTheDocument();
@@ -233,9 +241,7 @@ test("책 목록 받아오기 테스트", async () => {
   render(<App />);
 
   const button = screen.getByText(/books/i);
-  act(() => {
-    fireEvent.click(button);
-  });
+  fireEvent.click(button);
 
   const loading = await screen.findByText(/loading/i);
   expect(loading).toBeInTheDocument();
