@@ -29,7 +29,7 @@ Single Page App 이 유행하는 최근에는 오히려 접하기 힘든 개념�
 
 작성하면서 문득 느낀 것이 있다. ejs 와 jsp 는 사용 언어(각각 자바스크립트와 자바)가 다르지만 그 용례가 상당히 유사하다.
 
-어쨌든 이렇게 사용자가 HTML 페이지를 다시 전달받으면 브라우저는 새로고침을 해서 새로 받은 HTMl 을 표시한다.
+어쨌든 이렇게 사용자가 HTML 페이지를 다시 전달받으면 브라우저는 새로고침을 해서 새로 받은 HTML 을 표시한다.
 
 ## 새로고침에 대해
 
@@ -64,6 +64,8 @@ express 로 간단히 로컬 서버를 만들었다.
 
 사용자가 새로고침을 하지 않으면 그 HTML 은 의미가 없는 것이 된다.
 
+## form 태그
+
 [Why does submit refresh page](https://stackoverflow.com/questions/60090465/why-does-submit-refresh-page) 에서는 `type="submit"` 인 버튼을 클릭하면 새로고침이 되는 것에 대해 이야기한다.
 
 MDN 의 [HTML 폼 구성 방법](https://developer.mozilla.org/ko/docs/Learn/Forms/How_to_structure_a_web_form) 을 읽어보면 
@@ -72,9 +74,17 @@ form 이 보낸 요청에 대해 응답을 받을 때 `target` attribute 를 설
 
 이 `target` 에 대해 설명을 읽어보면 target attribute 에서 설정한 브라우징 컨텍스트로 `응답을 불러온다` 라고 설명한다.
 
-이 대목이 브라우저를 새로고침하는 이유를 추측케 한다. 
+이 대목이 form 태그 내부에서 submit 가 발생했을 때 브라우저를 새로고침하는 이유를 추측케 한다. 
 
 좀 더 자세한 건 [여기](https://html.spec.whatwg.org/multipage/browsers.html#browsers) 를 정독해야 할 거 같다.
+
+## 브라우저의 기본 동작과 새로고침
+
+어쨌든 form 태그가 서버에게 요청하는 목적으로 만들어졌다는 것을 알 수 있고,
+
+요청 후 변화를 반영하기 위해 브라우저 차원에서 새로고침을 진행하는 것을 보면
+
+브라우저는 서버로부터 받은 데이터를 최신화 하기 위해 새로고침을 수행하는 것이 기본 동작이라는 것을 짐작할 수 있다.
 
 ## 이어서 이야기 해볼 것
 
