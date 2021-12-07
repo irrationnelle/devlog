@@ -40,9 +40,7 @@ test("영화 목록을 받아온다.", async () => {
     render(<App />);
 
     const button = screen.getByText(/movies/i);
-    act(() => {
-        fireEvent.click(button);
-    });
+    fireEvent.click(button);
 
     const title = await screen.findByText(/inception/i);
     expect(title).toBeInTheDocument();
