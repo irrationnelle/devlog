@@ -84,7 +84,7 @@ SPA 에서 무한 스크롤을 구현하는 경우 스크롤 이벤트에 페이
 
 ## react custom hook 으로 무한 스크롤에 사용하는 intersection observer 재사용
 
-```typescript jsx
+```typescript
 import { useEffect, useRef } from "react";
 
 const useDetectElement = <Dependencies extends any[]>(
